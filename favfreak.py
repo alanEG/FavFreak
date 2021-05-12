@@ -123,7 +123,7 @@ if __name__ == "__main__":
                     if str(i) in fingerprint:
                         f.write(f"[{str(i)}:{fingerprint[str(i)]}]\n\n")
                     else:
-                        f.write(f"[{str(i)}\n\n")
+                        f.write(f"[{str(i)}]\n\n")
                     f.write('\n'.join(a[i]))
                     f.write("\n")
         print("-------------------------------------------------------------------")
